@@ -1,0 +1,10 @@
+#Questão 5
+#Solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
+
+valor_mercadoria = float(input("Insira o valor da mercadoria: "))
+desconto_percentual = float(input("Insira o percentual de desconto desejado: "))
+desconto_total = valor_mercadoria*desconto_percentual/100
+total = valor_mercadoria-desconto_total
+
+print("Desconto total de R$",desconto_total)
+print("Total do produto R$",total)
